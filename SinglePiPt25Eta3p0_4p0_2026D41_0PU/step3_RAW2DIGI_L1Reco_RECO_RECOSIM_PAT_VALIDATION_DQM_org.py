@@ -83,7 +83,7 @@ process.MessageLogger.debugs = cms.untracked.PSet(
     PFCandConnector = cms.untracked.PSet(limit = cms.untracked.int32(-1)),
     threshold = cms.untracked.string('DEBUG')
 )
-process.MessageLogger.debugModules = cms.untracked.vstring(["particleFlowTmp"])
+process.MessageLogger.debugModules = cms.untracked.vstring(["particleFlowTmpBarrel"])
 
 # Output definition
 
