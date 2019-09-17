@@ -38,7 +38,7 @@ process.maxEvents = cms.untracked.PSet(
 process.source = cms.Source("PoolSource",
     #fileNames = cms.untracked.vstring('file:step2.root'),
     fileNames = cms.untracked.vstring(
-                                      '/store/relval/CMSSW_11_0_0_pre6/RelValTTbar_13/GEN-SIM-DIGI-RAW/PU25ns_110X_upgrade2018_realistic_v3-v1/20000/9DA77A67-1659-2643-831D-38E8E8C5592E.root',
+                                      'root://cmsxrootd.fnal.gov//store/relval/CMSSW_11_0_0_pre6/RelValTTbar_13/GEN-SIM-DIGI-RAW/PU25ns_110X_upgrade2018_realistic_v3-v1/20000/9DA77A67-1659-2643-831D-38E8E8C5592E.root',
                                       '/store/relval/CMSSW_11_0_0_pre6/RelValTTbar_13/GEN-SIM-DIGI-RAW/PU25ns_110X_upgrade2018_realistic_v3-v1/20000/9CE653D2-1A66-1742-B826-9E121791EDA6.root',
                                       '/store/relval/CMSSW_11_0_0_pre6/RelValTTbar_13/GEN-SIM-DIGI-RAW/PU25ns_110X_upgrade2018_realistic_v3-v1/20000/3222EC9C-E7B8-3144-9796-969AA1B144D5.root',
                                       '/store/relval/CMSSW_11_0_0_pre6/RelValTTbar_13/GEN-SIM-DIGI-RAW/PU25ns_110X_upgrade2018_realistic_v3-v1/20000/33B2EE50-0656-064A-B9CD-4159C33EB244.root',
